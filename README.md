@@ -1,2 +1,2 @@
-# msnarskis.github.io
-Personal Website
+# Martynas Snarskis
+Personal Website: <a href="index.html">Home</a>
