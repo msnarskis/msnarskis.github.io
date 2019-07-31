@@ -1,1 +1,77 @@
+a {
+    text-decoration: none;
+    color: #505050;
+}
 
+a:hover {
+    color: #3285ab;
+}
+
+
+body {
+    line-height: 1.6;
+    margin: 2em auto 2em auto;
+    width: 50em;
+    font-family: 'Dosis', sans-serif;
+    background-color: #fafafa;
+}
+
+.header {
+    background-color: #fafafa;
+    margin: auto;
+    padding: 1em;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.header h1,
+.header h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: .1em;
+    background-color: #333;
+    border-radius: 6px;
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+.navbar li:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.navbar li:hover {
+    color: #333;
+    background-color: #fafafa;
+}
+
+.bottomcontent {
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    background-color: #fafafa;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.bottomcontent h1,
+.bottomcontent h2,
+.bottomcontent h3 {
+    text-align:center;
+    margin-top: none;
+    margin-bottom: 1em;
+}
