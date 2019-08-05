@@ -3,30 +3,39 @@
     <head>
         <title>Home - M.S.</title>
 
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
 
         <script type="text/javascript">
          function showDiv(myid){
-	        document.getElementById('cv_content').style.display = 'none';
-	        document.getElementById('about_content').style.display = 'none';
-             	document.getElementById('musings_content').style.display = 'none';
-	        document.getElementById(myid).style.display = 'block';
+	           document.getElementById('cv_content').style.display = 'none';
+	           document.getElementById('about_content').style.display = 'none';
+             document.getElementById('musings_content').style.display = 'none';
+	           document.getElementById(myid).style.display = 'block';
          }
         </script>
 
-    	<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
     </head>
 
     <!-- ---------------------------------HEADER----------------------------------- -->
 	  <body>
- <!-- Header -->
+		    <!-- Header -->
 		    <div class="header">
-            <a href="index.html" style="color:black">
+            <table>
+                <tr>
+                    <td>
+            <a href="/index.html" style="color:black">
 			          <h1 style="font-size:50px">MARTYNAS SNARSKIS</h1>
 			          <h3>Brain and Cognitive Science Student</h3>
             </a><br>
+                    </td>
 
+                    <td style="text-align:right; vertical-align:top">
+                        <h4><a href="https://github.com/msnarskis" target="_blank">Github</a></h2>
+                    </td>
+                </tr>
+            </table>
 			      <div class="navbar">
 				        <ul class="navbar">
 					          <li class="navbar" onclick="showDiv('about_content')">About</li>
@@ -73,24 +82,59 @@
         <div class="bottomcontent" id="cv_content" style="display:none">
             <h1>&#9900; CV &#9900;</h1>
 
+            <div style="margin-left:auto; margin-right:auto">
+                <embed src="/file/Snarskis_Martynas_Resume_F19.pdf" type="application/pdf" width="100%" height="800px" toolbar="0">
+            </div>
+
+            <!--
             <h3> Education </h3>
             <table>
-                stuff
+                <tr>
+                    <td>Jan 2018 - Current</td>
+                    <td><b><a href="http://www.rochester.edu" target="_blank">University of Rochester</a></b></td>
+                    <td>B.S. Brain and Cognitive Science</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2"><i>GPA: 3.91;</i> Deans List: <i>S2018, F2018, S2019</i></td>
+                </tr>
+
+                <tr>
+                    <td>Aug 2016 - Dec 2017</td>
+                    <td><b><a href="http://www.iastate.edu" target="_blank">Iowa State University</a></b></td>
+                    <td>B.S. Computer Engineering</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Degree not completed -- transfer</td>
+                </tr>
             </table>
+
 
             <h3>Experience</h3>
             <table>
-                stuff
+                <tr>
+                    <td>May 2019 - Current</td>
+                    <td style="text-align:left"><b><a href="http://factslab.io" target="_blank">FACTS.lab</a></b></td>
+                </tr>
+
+                <tr>
+                    <td>Nov 2018 - Current</td>
+                    <td style="text-align:left"><b><a href="http://www2.bcs.rochester.edu/sites/haefnerlab/index.html" target="_blank">Haefner Lab</a></b></td>
+                </tr>
             </table>
 
             <h3>Courses</h3>
             <table>
 
             </table>
+            -->
         </div>
 
         <div class="bottomcontent" id="musings_content" style="display:none">
             <h1>&#9900; Musings and Miscellany &#9900;</h1>
+
+            <h3>Work in progress...</h3>
         </div>
 
 
