@@ -75,3 +75,11 @@ body {
     margin-top: none;
     margin-bottom: 1em;
 }
+
+table {
+    width: 100%;
+}
+
+tr {
+    padding: 3px;
+}
